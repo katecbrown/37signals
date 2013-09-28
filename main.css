@@ -130,6 +130,19 @@ h5 {
 	margin-left: auto;
 }
 
+#product-swap {
+	width: 825px;
+	height: 200px;
+}
+
+h1.hover-style {
+	font-size: 40px;
+}
+
+h5.hover-style {
+	font: 14px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
 .product {
 	margin: 15px; 
 	width: 182px;

@@ -6,7 +6,8 @@
 		<meta charset="utf-8">
 		<title>37signals: Web-based collaboration apps for small business</title>
 		<link href="main.css" type="text/css" rel="stylesheet">
-	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+		<script src="application.js"></script>
 	</head>
 
 	<body>
@@ -29,12 +30,16 @@
 
 		<h1><img src="images/logo-37s-large.png" alt="37signals"></h1>
 
+	<div id="product-swap">
+
 		<h1>Making collaboration productive and enjoyable for people every day.</h1>
 
 		<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
-		
+
+	</div>
+
 	<div id="productSuite">
-		<div class="product">
+		<div class="product" id="basecamp">
 		<a href=#>
 			<img src="images/logo-bc.png" alt="37signals">
 			<h2>Basecamp</h2><sup>&reg;</sup>
@@ -43,7 +48,7 @@
 		</a>
 		</div>
 
-		<div class="product">
+		<div class="product" id="highrise">
 		<a href=#>			
 			<img src="images/logo-hr.png" alt="37signals">
 			<h2>Highrise</h2><sup>&reg;</sup>
@@ -52,7 +57,7 @@
 		</a>
 		</div>
 
-		<div class="product">
+		<div class="product" id="campfire">
 		<a href=#>	
 			<img src="images/logo-cf.png" alt="37signals">
 			<h2>Campfire</h2><sup>&#8482;</sup>
